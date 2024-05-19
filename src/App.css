@@ -1,0 +1,93 @@
+/* .chatborder{
+    margin: auto;
+  
+} */
+.whtapp{
+  background-image: url(https://img.freepik.com/free-vector/dialogue-chat-clouds-speech-bubble-icon-from-lines-triangles-particle-style-design-low-poly-technology-devices-people-communication-concept-blue-background_587448-472.jpg); 
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.chatpart{
+  
+
+  height: 550px;
+  max-height: 550px;
+  padding: 0px;
+  margin: 0px;
+  overflow-y: auto;
+}
+.chatpart::-webkit-scrollbar{
+  scroll-behavior: smooth;
+}
+*{
+  overflow-x: hidden;
+ 
+}
+.msg{
+  border-radius: 20px;
+}
+
+.body2{
+  padding-top: 50px;
+  overflow-y: hidden;
+}
+.textmsg{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.inpbx{
+  width: 100%;
+}
+/* .snt{
+  margin-left: -130px;
+} */
+.watermark{
+  
+  margin-bottom: 100px;
+
+}
+.title{
+  font-family: "Jacquard 24", system-ui;
+}
+.b1{
+  padding: 2px;
+  width: 200px;
+  background-color: lightblue;
+  font-size: 80%;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+.b2{
+  background-color: #fff;
+  width: 25%;
+  margin-left: 75%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+}
+.b3{
+  background-color: #fff;
+  width: 25%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: -50px;
+  border-bottom-left-radius: 50px;
+
+
+}
+@media only screen and (max-width: 600px) {  
+  .watermark{
+    display: none;
+  }
+}
